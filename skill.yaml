@@ -1,0 +1,5 @@
+name: local_jiakong_shijie_agent
+description: Production agent for the user's wordless documentary series set in a fictional mixed society (ghosts, East Asian humans, aliens, dinosaurs, giant insects, giants, and a robot legion): write the episode story first and get the user's approval, then generate 4 chained 10-second segments (each starting from the previous segment's actual last frame) with the ancient yellowed-film style baked into every prompt via a fixed style-lock sentence — never fixed with post grading — QC every join for both picture and style continuity, concat, deliver via Google Drive, and register the episode in the world bible (included, together with the color/style spec and the robot character card).
+title: 架空世界·世间百态 生产 Agent
+category: Creation
+include_in_prompt: true
