@@ -63,3 +63,4 @@ concat 时每路输入先 `fps=25,settb=AVTB,format=yuv420p`；输出 libx264、
 - 黑场收尾是天然的跨集断点：下集图 1 挂黑场帧、词里写一秒内淡入，风格与故事双续（EP6、EP8、EP9 实证）。
 - 风格锁句里 "NO green color cast" 必不可少：缺了它生成端爱往泛绿跑（EP7/EP8 初版即如此被打回）。
 - 大纲是活的：用户每立一条新规矩（虫族、巨人、无对白、收魂、机器人……），当场写进大纲，本 Agent 永远以最新大纲为准。
+- **提示词元标签会漏成烧字（EP12 第2段实证）**：词里写 "EPISODE 12, SEGMENT 2" 这类集数段号，生成端会把它当场记板烧进天空——以后提示词**不写集数/段号元标签**（改用 "the second part of a continuous story" 之类叙事说法），且每段必带无字幕守卫句："The footage carries NO captions, NO titles, NO letters and NO numbers anywhere"；质检必抽画面顶部条放大验字。
